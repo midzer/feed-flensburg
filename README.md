@@ -1,6 +1,6 @@
-# feed-dachau
+# feed-flensburg
 
-Landing page showing feed of local authorities, communities and news papers. Customized for [Feed Dachau](https://feed-dachau.de/). Template based on [jekyll-boilerplate](https://github.com/midzer/jekyll-boilerplate). [feed-websocket](https://github.com/midzer/feed-websocket) is used as backend
+Landing page showing feed of local authorities, communities and news papers. Customized for [Feed Flensburg](https://feed-flensburg.de/). Template based on [jekyll-boilerplate](https://github.com/midzer/jekyll-boilerplate). [feed-websocket](https://github.com/midzer/feed-websocket) is used as backend
 
 ## Requirements
 

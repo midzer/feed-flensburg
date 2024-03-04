@@ -1,5 +1,5 @@
 const version = '1.7.7';
-const cacheName = `feed-dachau-${version}`;
+const cacheName = `feed-flensburg-${version}`;
 
 self.addEventListener('install', function(event) {
   event.waitUntil(

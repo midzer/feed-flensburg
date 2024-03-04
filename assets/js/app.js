@@ -36,7 +36,7 @@ function createSVG (icon) {
   return svg
 }
 
-const ws = new WebSocket('wss://api.feed-dachau.de/ws/'),
+const ws = new WebSocket('wss://api.feed-flensburg.de/ws/'),
 feedbox = document.getElementById('feedbox')
 
 let timeout
@@ -71,7 +71,7 @@ ws.onmessage = message => {
       hostname = url.hostname
     }
     else {
-      hostname = 'feed-dachau.de'
+      hostname = 'feed-flensburg.de'
     }
     if (hostname.startsWith('www.')) {
       hostname = hostname.replace('www.', '')
@@ -174,7 +174,7 @@ function setUnsubscribeButton() {
 }
 
 function postJSON (object) {
-  fetch('https://api.feed-dachau.de/push/', {
+  fetch('https://api.feed-flensburg.de/push/', {
     method: 'post',
     headers: {
       'Content-type': 'application/json'
